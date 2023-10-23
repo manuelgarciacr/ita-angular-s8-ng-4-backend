@@ -1,4 +1,4 @@
-const {Schema, model} = require('mongoose');
+const {Schema, model, Types} = require('mongoose');
 const bcrypt = require('bcryptjs');
 
 // Workaround bug. An empty String causes validation error when the field is required
