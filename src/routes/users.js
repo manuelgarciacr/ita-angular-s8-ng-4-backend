@@ -31,6 +31,19 @@ router.put('/users', (req, res, next) => {
         .catch(err => next(err));
 }); // one user
 
+router.post('/users', (req, res, next) => {
+    console.log("PPOOSSTT", req.body, res.body);
+    users.create(req.body)
+        .then(data =>
+            res.send({
+                status: 200,
+                message: "User added",
+                data,
+            })
+        )
+        .catch(err => next(err));
+}); // one user
+
 router.delete('/users/:id'); // one user
 
 module.exports = router;

@@ -35,10 +35,10 @@ module.exports = app;
 // Middleware to process errors
 
 app.use((err, _req, res, _next) => {
-    const desc = err.toString().split("\n")[0];
+    const desc = err?.toString().split("\n")[0];
     const error = err.error;
     const path = err.path;
-    const reason = err.reason.toString().split("\n")[0];
+    const reason = err.reason?.toString().split("\n")[0];
     const msg = { desc, error, path, reason }
 
     if (!desc) delete msg.desc;
