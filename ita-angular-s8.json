@@ -1,0 +1,219 @@
+[
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b01",
+    "role": "default"
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b02",
+    "role": "default",
+    "updatedAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b03",
+    "role": "default"
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b04",
+    "role": "default"
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b05",
+    "role": "default"
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b06",
+    "role": "default"
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b07",
+    "role": "default"
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b08",
+    "role": "default"
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b09",
+    "role": "default"
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b10",
+    "role": "default"
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b11",
+    "role": "default",
+    "updatedAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b12",
+    "role": "default",
+    "updatedAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b13",
+    "role": "default",
+    "updatedAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b14",
+    "role": "default",
+    "updatedAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b15",
+    "role": "default",
+    "updatedAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b16",
+    "role": "default",
+    "updatedAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b17",
+    "role": "default",
+    "updatedAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b18",
+    "role": "default",
+    "updatedAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b19",
+    "role": "default",
+    "updatedAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "__v": 0
+  },
+  {
+    "password": "$2a$12$fUzg9YOUObJAS9iAijbc0.WjpAcQlWE0p8yBpjMWazIMVNe.PD0mu",
+    "firstName": "Juán",
+    "lastName": "Palomo",
+    "email": "a@b20",
+    "role": "default",
+    "updatedAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-24T08:04:16.495Z"
+    },
+    "__v": 0
+  }
+]
