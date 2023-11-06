@@ -1,7 +1,7 @@
 os=$(uname | tr '[:upper:]' '[:lower:]')
 
 if [[ $os == linux* ]]; then
-    mongod --config ./mongo/mongod.conf
+    mongod --config ./mongo/mongod.Lx.cfg
 elif [[  os == "linux*" ]]; then
     "C:\Program Files\MongoDB\Server\7.0\bin\mongod.exe" --dbpath=".\mongo\data\db"
 else
