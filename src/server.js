@@ -29,6 +29,7 @@ app.use(cors({ origin: "http://localhost:4200" }));
 // Routes
 
 app.use(require("./routes/users"));
+app.use(require("./routes/features"));
 
 module.exports = app;
 
