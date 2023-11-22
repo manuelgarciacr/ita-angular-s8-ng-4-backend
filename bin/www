@@ -4,7 +4,7 @@
  * Setting environment
  */
 
-debug = require('debug')('sprint9') // Global function
+debug = require("debug")("ita-angular-s8-ng-4-backend"); // Global function
 require('dotenv').config(); // Environment vars
   
 const app = require('../src/server'); // Importing Express server

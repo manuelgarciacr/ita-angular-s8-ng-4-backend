@@ -18,7 +18,7 @@ router.get("/features", (req, res, next) => {
             })
         )
         .catch((err) => next(err));
-});
+}); // one or more features
 
 router.put("/features", (req, res, next) => {
     features
@@ -31,7 +31,7 @@ router.put("/features", (req, res, next) => {
             })
         )
         .catch((err) => next(err));
-}); // one user
+}); // one feature
 
 router.post("/features", (req, res, next) => {
     features
@@ -44,7 +44,7 @@ router.post("/features", (req, res, next) => {
             })
         )
         .catch((err) => next(err));
-}); // one user
+}); // one feature
 
 router.delete("/features/:id", (req, res, next) => {
     features
@@ -57,6 +57,6 @@ router.delete("/features/:id", (req, res, next) => {
             })
         )
         .catch((err) => next(err));
-}); // one user
+}); // one feature
 
 module.exports = router;

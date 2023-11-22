@@ -1,10 +1,10 @@
 const { Router } = require("express");
 const router = Router();
-const users = require("../models/User");
+const events = require("../models/Event");
 
-router.get("/users", (req, res, next) => {
+router.get("/events", (req, res, next) => {
     const query = req.query;
-    users
+    events
         .find(query)
         .then((data) => {
             console.log(data);
@@ -13,50 +13,50 @@ router.get("/users", (req, res, next) => {
         .then((data) =>
             res.send({
                 status: 200,
-                message: "Users retrieved",
+                message: "Events retrieved",
                 data,
             })
         )
         .catch((err) => next(err));
-}); // one or more users
+}); // one or more events
 
-router.put("/users", (req, res, next) => {
-    users
+router.put("/events", (req, res, next) => {
+    events
         .findByIdAndUpdate(req.body._id, req.body)
         .then((data) =>
             res.send({
                 status: 200,
-                message: "User updated",
-                data,
+                message: "Event updated",
+                data: [data],
             })
         )
         .catch((err) => next(err));
-}); // one user
+}); // one event
 
-router.post("/users", (req, res, next) => {
-    users
+router.post("/events", (req, res, next) => {
+    events
         .create(req.body)
         .then((data) =>
             res.send({
                 status: 200,
-                message: "User added",
-                data,
+                message: "Event added",
+                data: [data],
             })
         )
         .catch((err) => next(err));
-}); // one user
+}); // one event
 
-router.delete("/users/:id", (req, res, next) => {
-    users
+router.delete("/events/:id", (req, res, next) => {
+    events
         .deleteOne({ _id: req.params.id })
         .then((data) =>
             res.send({
                 status: 200,
-                message: "User deleted",
-                data,
+                message: "Event deleted",
+                data: data,
             })
         )
         .catch((err) => next(err));
-}); // one user
+}); // one event
 
 module.exports = router;
