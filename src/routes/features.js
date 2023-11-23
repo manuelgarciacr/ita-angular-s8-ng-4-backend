@@ -20,6 +20,25 @@ router.get("/features", (req, res, next) => {
         .catch((err) => next(err));
 }); // one or more features
 
+router.get("/features/:id", (req, res, next) => {
+    const id = req.url.split("/").pop()
+    console.log("ID", id)
+    features
+        .findById(id)
+        .then((data) => {
+            console.log(data);
+            return [data];
+        })
+        .then((data) =>
+            res.send({
+                status: 200,
+                message: "Features retrieved",
+                data,
+            })
+        )
+        .catch((err) => next(err));
+}); // one feature
+
 router.put("/features", (req, res, next) => {
     features
         .findByIdAndUpdate(req.body._id, req.body)
